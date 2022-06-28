@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAe;EACjC,MAAM,EAAE,SAAS;EACjB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,GAAG;CACf",
+    "sources": [
+        "Expenses.scss"
+    ],
+    "names": [],
+    "file": "Expenses.css"
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Expenses from "../Elements/Expenses";
+import Expenses from "../Expenses/Expenses";
 import "../../styles/app.css";
 
 const App = () => {
@@ -29,11 +29,7 @@ const App = () => {
   return (
     <div>
       <h2>Let's get started!</h2>
-      {
-        expenses.map((expenses, key) =>{
-          return <Expenses key={key} {...expenses}/>
-        })
-      }
+      <Expenses item={expenses}/>
     </div>
   );
 };
