@@ -3,6 +3,8 @@ import React from "react";
 import Expenses from "../Elements/Expenses";
 import "../../styles/app.css";
 
+//https://stackoverflow.com/questions/55301315/when-i-pass-array-in-a-react-functional-component-it-turns-to-an-object
+
 const App = () => {
   const expenses = [
     {
