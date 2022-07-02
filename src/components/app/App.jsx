@@ -1,7 +1,6 @@
 import React from "react";
 
 import Expenses from "../Expenses/Expenses";
-import "../../styles/app.css";
 
 const App = () => {
   const expenses = [
