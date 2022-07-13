@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "../../styles/Expenses/EXpenseForm.css";
+import "../../styles/Expenses/ExpenseForm.css";
 
 const EXpenseForm = (props) => {
   // Esta forma es para actualizar un estado a la vez
