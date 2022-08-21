@@ -6,8 +6,7 @@
   max-width: 95%;
   border-radius: 12px;
   text-align: center;
-  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 
 .new-expense button {
@@ -36,5 +35,4 @@
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
   background-color: #ddb3f8;
-}
-/*# sourceMappingURL=NewExpense.css.map */
+}/*# sourceMappingURL=NewExpense.css.map */

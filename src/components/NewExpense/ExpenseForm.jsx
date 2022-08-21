@@ -54,9 +54,10 @@ const EXpenseForm = (props) => {
     event.preventDefault();
 
     //Se parsea el string de la variable en un date object
+    // Se le pone + al amount para asi asegurar que los valores se van a guardar como numeros y no como strings
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
 
@@ -103,6 +104,9 @@ const EXpenseForm = (props) => {
         </div>
       </div>
       <div className="new-expense__actions">
+        <button onClick={props.onCancel} type="button">
+          Cancel
+        </button>
         <button type="submit">Add Expense</button>
       </div>
     </form>

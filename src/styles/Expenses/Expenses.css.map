@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAe;EACjC,MAAM,EAAE,SAAS;EACjB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,GAAG;CACf",
-    "sources": [
-        "Expenses.scss"
-    ],
-    "names": [],
-    "file": "Expenses.css"
-}
+{"version":3,"sources":["Expenses.scss","Expenses.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,iCAAA;EACA,iBAAA;EACA,YAAA;EACA,cAAA;ACCF","file":"Expenses.css"}
