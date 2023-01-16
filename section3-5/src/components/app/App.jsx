@@ -29,7 +29,7 @@ const App = () => {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
   const addExpenseHandler = (expense) => {
-    //Se hace de esta manera porque se vasa el resultado en la version pasada del mismo state
+    //Se hace de esta manera porque se basa el resultado en la version pasada del mismo state
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
     });
